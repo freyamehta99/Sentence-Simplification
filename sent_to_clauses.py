@@ -124,6 +124,7 @@ def get_clause_list(sent):
         for i in verb_phrases:
             clause_list.append(subject_phrase + " " + i)
 
+    clause_list.reverse()
     return clause_list
 
 if __name__ == "__main__":
